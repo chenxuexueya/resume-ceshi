@@ -1,0 +1,61 @@
+body{
+    background: grey;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.topNavBar .logo{
+    font-family: Arial black;
+    font-size: 24px;
+    padding-top: 1px;
+    margin: 20px 10px;
+}
+.topNavBar .logo .rs{
+    color: #e6686a;
+    margin: 8px;
+}
+.topNavBar .logo .card {
+    color: #9a9da2;
+}
+.topNavBar nav {
+    font-size: 11px;
+    padding-top: 13px;
+    padding-bottom: 8px;
+    margin: 20px 10px;
+  }
+  .topNavBar nav a{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    border: 3px solid transparent;
+  }
+  .topNavBar nav a:hover{
+      border-bottom: 3px solid #e6686a;
+      padding-bottom: 4px;
+  }
+.topNavBar nav ul>li{
+    float: left;
+    margin-left: 14px;
+    margin-right: 15px;
+  }
+  .banner {
+    height: 515px;
+    background-image: url(./img/shop.jpg);
+    background-position: center center;
+    background-size: cover;
+    }
+  .banner .mask {
+    height: 515px;
+    background-color: rgba(0, 0, 0, 0.4);
+    }
